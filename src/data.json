@@ -1,0 +1,245 @@
+{
+  "questions": [
+    {
+      "question": "Choose the correct sentence.",
+      "options": [
+        "She go to school every day.",
+        "She goes to school every day.",
+        "She going to school every day.",
+        "She gone to school every day."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the past form of “buy”?",
+      "options": [
+        "Buyed",
+        "Bought",
+        "Buying",
+        "Buys"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Choose the correct word: “I have lived here ___ 2020.”",
+      "options": [
+        "for",
+        "during",
+        "since",
+        "from"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does “borrow” mean?",
+      "options": [
+        "Give something to someone",
+        "Take something and return it later",
+        "Buy something expensive",
+        "Lose something"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Choose the correct option: “There isn’t ___ milk left.”",
+      "options": [
+        "many",
+        "a few",
+        "much",
+        "several"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Complete: “If I ___ more time, I would travel.”",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "am having"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Choose the correct passive sentence.",
+      "options": [
+        "The room cleans every day.",
+        "The room is cleaned every day.",
+        "The room cleaned every day.",
+        "The room is cleaning every day."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the closest meaning of “reliable”?",
+      "options": [
+        "Trustworthy",
+        "Expensive",
+        "Unusual",
+        "Temporary"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Complete: “By the time we arrived, the film ___.”",
+      "options": [
+        "starts",
+        "has started",
+        "had started",
+        "will start"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Choose the correct reported speech: He said, “I am tired.”",
+      "options": [
+        "He said he is tired.",
+        "He said he was tired.",
+        "He said I was tired.",
+        "He said he has tired."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which phrase means “to postpone”?",
+      "options": [
+        "Put off",
+        "Look after",
+        "Run into",
+        "Give up"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Complete: “Despite ___ tired, she continued working.”",
+      "options": [
+        "be",
+        "to be",
+        "being",
+        "was"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Choose the grammatically correct sentence.",
+      "options": [
+        "Had I known, I would have called.",
+        "If I would know, I called.",
+        "Had I knew, I would call.",
+        "If I had knew, I called."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does “a double-edged sword” describe?",
+      "options": [
+        "A simple solution",
+        "Something with both advantages and disadvantages",
+        "A dangerous weapon only",
+        "A completely useless idea"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Choose the best completion: “No sooner ___ than it started raining.”",
+      "options": [
+        "we left",
+        "had we left",
+        "we had leave",
+        "did we leaving"
+      ],
+      "answer": 1
+    }
+  ],
+  "pricing": {
+    "formats": [
+      {
+        "id": "group",
+        "name": "Группа",
+        "description": "До 8 учеников",
+        "price": 2000
+      },
+      {
+        "id": "mini",
+        "name": "Мини-группа",
+        "description": "2–4 ученика",
+        "price": 3000
+      },
+      {
+        "id": "individual",
+        "name": "Индивидуально",
+        "description": "Занятия один на один",
+        "price": 5000
+      }
+    ],
+    "lessonsPerWeek": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "durations": [
+      {
+        "months": 1,
+        "discount": 0,
+        "label": "1 месяц"
+      },
+      {
+        "months": 3,
+        "discount": 10,
+        "label": "3 месяца"
+      },
+      {
+        "months": 6,
+        "discount": 20,
+        "label": "6 месяцев"
+      }
+    ]
+  },
+  "promocodes": [
+    {
+      "code": "WELCOME10",
+      "discount": 10,
+      "active": true
+    },
+    {
+      "code": "STUDENT5",
+      "discount": 5,
+      "active": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "A1-01",
+      "level": "Beginner",
+      "teacher": "Анна",
+      "days": "Понедельник, среда",
+      "time": "10:00",
+      "places": 5
+    },
+    {
+      "id": "A2-01",
+      "level": "Elementary",
+      "teacher": "Мария",
+      "days": "Вторник, четверг",
+      "time": "12:00",
+      "places": 3
+    },
+    {
+      "id": "B1-01",
+      "level": "Intermediate",
+      "teacher": "Елена",
+      "days": "Понедельник, пятница",
+      "time": "14:00",
+      "places": 4
+    },
+    {
+      "id": "B2-01",
+      "level": "Upper-Intermediate",
+      "teacher": "Дмитрий",
+      "days": "Вторник, четверг",
+      "time": "18:00",
+      "places": 2
+    }
+  ]
+}
